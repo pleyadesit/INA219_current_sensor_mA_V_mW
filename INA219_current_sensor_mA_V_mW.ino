@@ -34,7 +34,6 @@ void setup()
   display.display();
   delay(4000);
   display.clearDisplay();       
-  //display.setTextSize(2);
   display.setCursor(30,12);
   display.print("INA219");
   display.setTextSize(1);
