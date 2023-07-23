@@ -10,10 +10,10 @@
 
 Adafruit_INA219 ina219;
 
-#define OLED_MOSI   9
-#define OLED_CLK   10
-#define OLED_DC    11
-#define OLED_CS    12
+#define OLED_MOSI 9
+#define OLED_CLK 10
+#define OLED_DC 11
+#define OLED_CS 12
 #define OLED_RESET 13
 Adafruit_SSD1306 display(OLED_MOSI, OLED_CLK, OLED_DC, OLED_RESET, OLED_CS);
 #define OLED_ADDR 0x3C
